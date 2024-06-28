@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="40px"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="340px"
+        android:background="@drawable/logoorigami"
+        android:layout_marginBottom="200px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER NAME"
+        android:textColor="#F0EDEC" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your User Name"
+        android:id="@+id/uname"
+        android:layout_marginBottom="70px"
+        android:drawableLeft="@drawable/baseline_person_outline_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textColor="#FBF8F6"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/baseline_vpn_key_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:text="login"
+        android:background="#EDF2F2"
+        android:textColor="#054161"
+        android:id="@+id/loginbtn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:text="Signup"
+        android:background="#104587"
+        android:textColor="#F3F7F8"
+        android:id="@+id/signupbtn"/>
+
+</LinearLayout>

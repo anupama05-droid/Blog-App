@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30px"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="100px"
+        android:textColor="#104587"
+        android:layout_marginBottom="250px"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add post"
+        android:textColor="#F4F6FA"
+        android:background="#104587"
+        android:layout_margin="20px"
+        android:id="@+id/addbtn" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search post"
+        android:textColor="#F4F6FA"
+        android:background="#104587"
+        android:layout_margin="20px"
+        android:id="@+id/searchbtn" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete post"
+        android:textColor="#F4F6FA"
+        android:background="#104587"
+        android:layout_margin="20px"
+        android:id="@+id/dltbtn" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blogs"
+        android:textColor="#F4F6FA"
+        android:background="#104587"
+        android:layout_margin="20px"
+        android:id="@+id/viewbtn" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="#EDF2F2"
+        android:textColor="#054161"
+        android:layout_margin="20px"
+        android:id="@+id/logoutbtn" />
+</LinearLayout>

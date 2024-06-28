@@ -1,0 +1,35 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blog Title"
+        android:textColor="#104587" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the blog title"
+        android:id="@+id/btitlebtn"
+        android:layout_marginBottom="40px"
+        android:drawableLeft="@drawable/baseline_title_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:background="#104587"
+        android:textColor="#F4F6FA"
+        android:layout_margin="20px"
+        android:id="@+id/searchbn" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:background="#104587"
+        android:textColor="#F4F6FA"
+        android:layout_margin="20px"
+        android:id="@+id/backtomenubtn" />
+</LinearLayout>
